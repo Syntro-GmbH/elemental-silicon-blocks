@@ -11,7 +11,11 @@
     "require": {
         "silverstripe/cms": "^4",
         "silverstripe/framework": "^4",
-        "dnadesign/silverstripe-elemental": "^4"
+        "dnadesign/silverstripe-elemental": "^4",
+        "gorriecoe/silverstripe-link": "^1",
+        "gorriecoe/silverstripe-linkfield": "^1",
+        "syntro/silverstripe-elemental-baseitem": "^1",
+        "unclecheese/display-logic": "^2"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.0",
