@@ -25,7 +25,7 @@ class MultiHolderControllerExtension extends Extension
     {
         $myElement = $this->getOwner()->getElement();
         if ($myElement->has_extension(MultiHolderExtension::class) && $myElement->HolderStyle) {
-            $template = [$template .'_'. $myElement->HolderStyle, $template];
+            $template = $template .'_'. $myElement->HolderStyle;
         }
 
         return $template;
