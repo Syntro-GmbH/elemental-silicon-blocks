@@ -1,3 +1,6 @@
 de:
+  Syntro\BlocksSilicon\Extension\MultiHolderExtension:
+    HOLDERSTYLE: Hintergrund-Stilvariation
+    DEFAULT: Standard
   BlocksSilicon\Element\HeroBlock:
     BlockType: Hero
