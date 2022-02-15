@@ -1,0 +1,9 @@
+---
+Name: blocks-silicon
+---
+# DNADesign\Elemental\Models\ElementContent:
+#   defaults:
+
+DNADesign\Elemental\Controllers\ElementController:
+  extensions:
+    - Syntro\BlocksSilicon\Extension\MultiHolderControllerExtension
