@@ -1,5 +1,5 @@
 <?php
-namespace BlocksSilicon\Element;
+namespace Syntro\BlocksSilicon\Element;
 
 use SilverStripe\Assets\Image;
 use DNADesign\Elemental\Models\ElementContent;
