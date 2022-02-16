@@ -2,5 +2,9 @@ de:
   Syntro\BlocksSilicon\Extension\MultiHolderExtension:
     HOLDERSTYLE: Hintergrund-Stilvariation
     DEFAULT: Standard
-  BlocksSilicon\Element\HeroBlock:
+  Syntro\BlocksSilicon\Element\HeroBlock:
     BlockType: Hero
+  Syntro\BlocksSilicon\Element\CardDeckBlock:
+    BlockType: Kartenstapel
+    USECAROUSEL: Als Karussell darstellen
+    USECAROUSELDESC: Wenn aktiv werden alle Karten auf einer Zeile als Karussell dargestellt.
