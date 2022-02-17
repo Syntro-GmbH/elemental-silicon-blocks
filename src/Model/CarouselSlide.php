@@ -9,19 +9,19 @@ use SilverStripe\AssetAdmin\Forms\UploadField;
 use Syntro\SilverStripeElementalBaseitem\Model\BaseItem;
 use gorriecoe\Link\Models\Link;
 use gorriecoe\LinkField\LinkField;
-use Syntro\BlocksSilicon\Element\CardDeckBlock;
+use Syntro\BlocksSilicon\Element\CarouselBlock;
 
 /**
- * A card with an Image and link
+ * A carousel slide
  * @author Matthias Leutenegger <hello@syntro.ch>
  */
-class Card extends BaseItem
+class CarouselSlide extends BaseItem
 {
     /**
      * Defines the database table name
      *  @var string
      */
-    private static $table_name = 'BlockCard_Card';
+    private static $table_name = 'BlockCarousel_Slide';
 
     private static $displays_title_in_template = true;
 
@@ -36,7 +36,7 @@ class Card extends BaseItem
     private static $defaults = [];
 
     private static $has_one = [
-        'Section' => CardDeckBlock::class,
+        'Section' => CarouselBlock::class,
         'Image' => Image::class,
         'Link' => Link::class
     ];
@@ -76,6 +76,9 @@ class Card extends BaseItem
     {
         $fields = parent::getCMSFields();
 
+        $contentField = $fields->fieldByName('Root.Main.Content');
+        $contentField->setTitle(_t(__CLASS__ . '.CONTENTTITLE', 'Content'));
+
         $fields->removeByName([
             'SectionID',
             'LinkID'
@@ -85,23 +88,23 @@ class Card extends BaseItem
             'Root.Main',
             $imageField = UploadField::create(
                 'Image',
-                'Image'
+                _t(__CLASS__ . '.IMAGETITLE', 'Image')
             ),
             'Title'
         );
-        $imageField->setFolderName('Elements/CardDeck');
+        $imageField->setFolderName('Elements/Carousel');
         $imageField->setAllowedExtensions(['png','jpg','jpeg']);
-        $imageField->setRightTitle('renders as 800px by 440px'); //TODO: translate
 
         $fields->addFieldToTab(
             'Root.Main',
             LinkField::create(
                 'Link',
-                $this->fieldLabel('Link'),
+                _t(__CLASS__ . '.LINKTITLE', 'Link'),
                 $this
             )
         );
 
         return $fields;
     }
+
 }

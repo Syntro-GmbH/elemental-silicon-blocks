@@ -107,7 +107,7 @@ class IconBox extends BaseItem
             'Root.Main',
             LinkField::create(
                 'Link',
-                $this->fieldLabel('Link'),
+                _t(__CLASS__ . '.LINKTITLE', 'Link'),
                 $this
             )
         );
