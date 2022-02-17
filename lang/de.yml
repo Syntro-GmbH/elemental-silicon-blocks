@@ -8,3 +8,15 @@ de:
     BlockType: Kartenstapel
     USECAROUSEL: Als Karussell darstellen
     USECAROUSELDESC: Wenn aktiv werden alle Karten auf einer Zeile als Karussell dargestellt.
+  Syntro\BlocksSilicon\Element\IconBoxSetBlock:
+    BlockType: Icon Boxen
+    USECAROUSEL: Als Karussell darstellen
+    USECAROUSELDESC: Wenn aktiv werden alle Blöcke auf einer Zeile als Karussell dargestellt.
+  Syntro\BlocksSilicon\Model\IconBox:
+    ICONTITLE: Icon
+    ICONDESC:
+      Verfügbare Icons findest du auf der
+      <a href="https://boxicons.com/" target="_blank">Boxicons Webseite</a>.
+      Klicke dort auf das Icon deiner Wahl, wähle das <code>Font</code> Tab aus
+      und kopiere das zweite Argument im class Attribute (z.B. <code>bxl-unity</code>).
+    CONTENTTITLE: Inhalt
