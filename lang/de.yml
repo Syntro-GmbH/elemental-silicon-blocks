@@ -31,3 +31,13 @@ de:
     CONTENTTITLE: Inhalt
     IMAGETITLE: Bild
     LINKTITLE: Link
+  Syntro\BlocksSilicon\Element\CustomerReviewBlock:
+    BlockType: 'Kundenbewertungen'
+  Syntro\BlocksSilicon\Model\Review:
+    NOCOMMENT: Kein Kommentar
+    TITLETITLE: 'Name'
+    COMMENTTITLE: 'Kommentar'
+    SCORETITLE: 'Bewertung'
+    PORTRAITTITLE: 'Portrait'
+    SCORENOTSET: 'Bitte gib eine Bewertung ein'
+    TITLENOTSET: 'Bitte gib einen Namen an'
