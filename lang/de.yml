@@ -2,8 +2,13 @@ de:
   Syntro\BlocksSilicon\Extension\MultiHolderExtension:
     HOLDERSTYLE: Hintergrund-Stilvariation
     DEFAULT: Standard
+  Syntro\BlocksSilicon\Extension\SplitRatioExtension:
+    FIELDTITLE: Spaltengrössenverhältnis
   Syntro\BlocksSilicon\Element\HeroBlock:
     BlockType: Hero
+  Syntro\BlocksSilicon\Element\ContentImageSplitBlock:
+    IMAGETITLE: 'Bild'
+    BlockType: 'Bild & Inhalt'
   Syntro\BlocksSilicon\Element\CardDeckBlock:
     BlockType: Kartenstapel
     USECAROUSEL: Als Karussell darstellen
