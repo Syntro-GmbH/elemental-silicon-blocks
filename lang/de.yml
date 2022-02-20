@@ -64,3 +64,12 @@ de:
     STARTEXPANDEDDESCRIPTION: 'Wenn aktiv wird das erste Element geöffnet geladen'
   Syntro\BlocksSilicon\Model\AccordionItem:
     CONTENTTITLE: 'Inhalt'
+  Syntro\BlocksSilicon\Element\EmployeesBlock:
+    BlockType: 'Mitarbeiter'
+  Syntro\BlocksSilicon\Model\Employee:
+    TITLETITLE: 'Name'
+    POSITIONTITLE: 'Position'
+    SOMEINTRO: 'Wenn du einen Link zum entsprechenden Profil eingibst, erscheint dieser auf der Seite.'
+    SOMETITLE: 'Soziale Profile'
+    TITLENOTSET: 'Bitte gib einen Namen ein'
+    PORTRAITNOTSET: 'Bitte lade ein Bild hoch'
