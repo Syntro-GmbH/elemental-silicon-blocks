@@ -76,6 +76,9 @@ class Card extends BaseItem
     {
         $fields = parent::getCMSFields();
 
+        $contentField = $fields->fieldByName('Root.Main.Content');
+        $contentField->setTitle(_t(__CLASS__ . '.CONTENTTITLE', 'Content'));
+
         $fields->removeByName([
             'SectionID',
             'LinkID'
@@ -85,7 +88,7 @@ class Card extends BaseItem
             'Root.Main',
             $imageField = UploadField::create(
                 'Image',
-                'Image'
+                _t(__CLASS__ . '.IMAGETITLE', 'Image')
             ),
             'Title'
         );
@@ -97,7 +100,7 @@ class Card extends BaseItem
             'Root.Main',
             LinkField::create(
                 'Link',
-                $this->fieldLabel('Link'),
+                _t(__CLASS__ . '.LINKTITLE', 'Link'),
                 $this
             )
         );
