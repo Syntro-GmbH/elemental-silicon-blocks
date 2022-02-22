@@ -83,3 +83,5 @@ de:
     VIDEODESC: 'Füge die Video-URL hier ein. Sie sollte in etwa so aussehen: <code>https://www.youtube.com/watch?v=XXXXXXXXXXX</code>'
     IMAGENOTSET: 'Lade ein Bild hoch'
     VIDEOURLNOTSET: 'Bitte gib eine Video-URL ein'
+  Syntro\BlocksSilicon\Element\ImageBlock:
+    BlockType: Bild
