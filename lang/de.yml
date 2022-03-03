@@ -1,6 +1,9 @@
 de:
   Syntro\BlocksSilicon\Element\IconBoxSetBlock:
     BlockType: Icon Boxen
+    STYLE_simple: Zentriertes Icon mit Text
+    STYLE_card: Einfache Card mit Icon (hover-Effekt)
+    STYLE_cardGradient: Mit Gradient gefärbtes Icon (hover-Effekt)
   Syntro\BlocksSilicon\Model\IconBox:
     ICONTITLE: Icon
     ICONDESC:
@@ -71,7 +74,3 @@ de:
     STYLE_horizontalPillsBackground: Tabs (Buttons), Inhalt in Bereich mit Hintergrund
     STYLE_verticalPills: Vertikale Tabs (Buttons) links
     STYLE_verticalPillsBackground: Vertikale Tabs (Buttons) links, Inhalt in Bereich mit Hintergrund
-  Syntro\BlocksSilicon\Element\IconBoxSetBlock:
-    STYLE_simple: Zentriertes Icon mit Text
-    STYLE_card: Einfache Card mit Icon (hover-Effekt)
-    STYLE_cardGradient: Mit Gradient gefärbtes Icon (hover-Effekt)

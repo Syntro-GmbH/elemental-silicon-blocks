@@ -48,7 +48,7 @@
                 <div class="ps-3">
                   <h6 class="fw-semibold lh-base mb-0">$Title</h6>
                   <% if Position %>
-                  <span class="fs-sm text-muted">$Position</span>
+                    <span class="fs-sm text-muted">$Position</span>
                   <% end_if %>
                 </div>
               </figcaption>

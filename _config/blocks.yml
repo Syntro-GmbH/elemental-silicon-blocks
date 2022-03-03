@@ -105,5 +105,4 @@ Syntro\BlocksSilicon\Element\IconBoxSetBlock:
   styles:
     simple: Centered Icon with text
     card: Simple card with icon on top (hovereffect)
-    cardGradient: Icon colored with gradient (hovereffect) (index)
-    cardLargeProminent: Large card with prominent icon (landing-software-company)
+    cardGradient: Icon colored with gradient (hovereffect)
