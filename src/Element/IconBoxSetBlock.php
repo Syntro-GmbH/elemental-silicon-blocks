@@ -6,7 +6,7 @@ use SilverStripe\Assets\Image;
 use DNADesign\Elemental\Models\BaseElement;
 use Syntro\SilverStripeElementalBaseitem\Forms\GridFieldConfig_ElementalChildren;
 use Syntro\BlocksSilicon\Model\IconBox;
-use Syntro\BlocksSilicon\Extension\MultiHolderExtension;
+use Syntro\ElementalBootstrapBlocks\Extension\UseCarouselExtension;
 
 /**
  * An element which renders cards with icons
@@ -57,16 +57,14 @@ class IconBoxSetBlock extends BaseElement
      *  @var array
      */
     private static $extensions = [
-        MultiHolderExtension::class,
+        UseCarouselExtension::class
     ];
 
     /**
      * available holder styles
      * @var array
      */
-    private static $holder_styles = [
-        'colored' => 'Slight color'
-    ];
+    private static $holder_styles = [];
 
     /**
      * available styles
@@ -78,17 +76,13 @@ class IconBoxSetBlock extends BaseElement
      * Database fields
      * @var array
      */
-    private static $db = [
-        'UseCarousel' => 'Boolean'
-    ];
+    private static $db = [];
 
     /**
      * Add default values to database
      *  @var array
      */
-    private static $defaults = [
-        'ExtraClass' => 'py-5 my-2 my-md-4 my-lg-5'
-    ];
+    private static $defaults = [];
 
     /**
      * Has_one relationship
@@ -119,17 +113,6 @@ class IconBoxSetBlock extends BaseElement
     public function getCMSFields()
     {
         $fields = parent::getCMSFields();
-        $fields->addFieldToTab(
-            'Root.Main',
-            $carouselField = CheckboxField::create(
-                'UseCarousel',
-                _t(__CLASS__ . '.USECAROUSEL', 'Display as Carousel')
-            ),
-            'insertBefore'
-        );
-        $carouselField->setDescription(
-            _t(__CLASS__ . '.USECAROUSELDESC', 'If enabled, cards that would be displayed in a new row are displayed in a carousel.')
-        );
         if ($this->ID) {
             /** @var GridField $griditems */
             $griditems = $fields->fieldByName('Root.IconBoxes.IconBoxes');

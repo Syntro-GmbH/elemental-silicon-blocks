@@ -22,27 +22,22 @@
     }'>
       <div class="swiper-wrapper">
         <% loop IconBoxes %>
-          <!-- Item -->
-          <div class="swiper-slide h-auto py-3">
-            <div class="card h-100 card-body card-hover mx-2">
-              <i class="bx $Icon display-5 fw-normal card-icon" style="color: #b4b7c9;"></i>
-              <% if $ShowTitle %>
-              <h3 class="h5 pt-3 pb-1 <% if Content %>mb-2<% else %>mb-0<% end_if %>">$Title</h3>
-              <% end_if %>
-              <% if $Content %>
-              <div class="mb-n2">$Content</div>
-              <% end_if %>
-              <% if Link %>
-                <% with Link %>
-                  <div class="d-flex justify-content-end">
-                    <a {$IDAttr} href="{$LinkURL}" class="btn btn-link px-0" {$TargetAttr}>
-                      {$Title}
-                      <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
-                    </a>
-                  </div>
-                <% end_with %>
-              <% end_if %>
-            </div>
+          <div class="swiper-slide text-center h-auto pb-md-2 mb-3 mb-lg-4">
+            <span class="btn btn-icon btn-secondary btn-xl rounded-circle pe-none p-3 mb-4">
+            <i class="bx $Icon display-5 fw-normal card-icon text-primary"></i>
+            </span>
+            <% if ShowTitle %>
+              <h3 class="h5 pb-1 mb-2">$Title</h3>
+            <% end_if %>
+            <div class="fs-sm mb-n2">$Content</div>
+            <% if Link %>
+              <% with Link %>
+                <a {$IDAttr} href="{$LinkURL}" class="btn btn-link px-0" {$TargetAttr}>
+                  {$Title}
+                  <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
+                </a>
+              <% end_with %>
+            <% end_if %>
           </div>
         <% end_loop %>
       </div>
@@ -50,29 +45,24 @@
       <div class="swiper-pagination position-relative d-xl-none pt-3 mt-4"></div>
     </div>
   <% else %>
-    <div class="row align-items-stretch mb-n3 mt-n2">
+    <div class="row">
       <% loop IconBoxes %>
-        <!-- Item -->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3 mt-2">
-          <div class="card h-100 card-body card-hover">
-            <i class="bx $Icon display-5 fw-normal card-icon" style="color: #b4b7c9;"></i>
-            <% if $ShowTitle %>
-            <h3 class="h5 pt-3 pb-1 <% if Content %>mb-2<% else %>mb-0<% end_if %>">$Title</h3>
-            <% end_if %>
-            <% if $Content %>
-            <div class="mb-n2">$Content</div>
-            <% end_if %>
-            <% if Link %>
-              <% with Link %>
-                <div class="d-flex justify-content-end mt-2">
-                  <a {$IDAttr} href="{$LinkURL}" class="btn btn-link px-0" {$TargetAttr}>
-                    {$Title}
-                    <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
-                  </a>
-                </div>
-              <% end_with %>
-            <% end_if %>
-          </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center pb-md-2 mb-3 mb-lg-4">
+          <span class="btn btn-icon btn-secondary btn-xl rounded-circle pe-none p-3 mb-4">
+          <i class="bx $Icon display-5 fw-normal card-icon text-primary"></i>
+          </span>
+          <% if ShowTitle %>
+            <h3 class="h5 pb-1 mb-2">$Title</h3>
+          <% end_if %>
+          <div class="fs-sm mb-n2">$Content</div>
+          <% if Link %>
+            <% with Link %>
+              <a {$IDAttr} href="{$LinkURL}" class="btn btn-link px-0" {$TargetAttr}>
+                {$Title}
+                <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
+              </a>
+            <% end_with %>
+          <% end_if %>
         </div>
       <% end_loop %>
     </div>

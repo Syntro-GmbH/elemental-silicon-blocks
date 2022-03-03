@@ -1,0 +1,10 @@
+---
+Name: blocks-silicon-template-priority
+Before:
+  - dnadesign/silverstripe-elemental
+---
+# DNADesign\Elemental\Models\ElementContent:
+#   defaults:
+SilverStripe\Core\Manifest\ModuleManifest:
+  module_priority:
+    - syntro/blocks-silicon
