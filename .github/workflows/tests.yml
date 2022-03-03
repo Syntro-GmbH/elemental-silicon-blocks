@@ -39,7 +39,6 @@ jobs:
       fail-fast: false
       matrix:
         php:
-          - 7.3
           - 7.4
     container: brettt89/silverstripe-web:${{ matrix.php }}-apache
     services:
@@ -67,7 +66,7 @@ jobs:
             mv -f composer.phar /usr/local/bin/composer
       - name: Install git
         run: |
-          apt-get install git -yqq
+          sudo apt update && apt-get install git -yqq
       - name: Checkout code
         uses: actions/checkout@v2
       - name: install dependencies
