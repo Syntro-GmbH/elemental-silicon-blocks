@@ -115,5 +115,4 @@ class IconBox extends BaseItem
 
         return $fields;
     }
-
 }
