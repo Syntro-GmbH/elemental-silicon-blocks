@@ -6,7 +6,6 @@ use SilverStripe\ORM\DataExtension;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\TextField;
 
-
 /**
  * Adds an icon field to the tab
  *
@@ -22,8 +21,11 @@ class TabIconExtension extends DataExtension
         'Icon' => 'Varchar',
     ];
 
+
     /**
-     * CMS Fields
+     * updateCMSFields - description
+     *
+     * @param  FieldList $fields the fields of the owner
      * @return FieldList
      */
     public function updateCMSFields($fields)
@@ -51,5 +53,4 @@ class TabIconExtension extends DataExtension
             'Content'
         );
     }
-
 }
