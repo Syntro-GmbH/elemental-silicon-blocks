@@ -77,7 +77,7 @@
         <% loop Reviews %>
           <!-- Author 1 image -->
           <div id="CustomerReviews-e{$Up.ID}-{$ID}" class="card bg-transparent border-0 swiper-tab<% if First %> active<% end_if %>">
-            <div class="card-body p-0 rounded-3 bg-size-cover bg-repeat-0 bg-position-top-center" style="background-image: url(<% if Portrait %>$Portrait.ScaleWidth(600).URL<% else %>$resourceURL('syntro/blocks-silicon:client/img/user-placeholder.png')<% end_if %>);"></div>
+          <div class="card-body p-0 rounded-3 bg-size-cover bg-repeat-0 bg-position-top-center" style="background-image: url(<% if Portrait %>$Portrait.ScaleWidth(600).URL<% else %>$resourceURL('syntro/elemental-silicon-blocks:client/img/user-placeholder.png')<% end_if %>);"></div>
             <div class="card-footer d-flex w-100 border-0 pb-0">
               <%-- <img src="assets/img/brands/01.svg" width="160" class="d-none d-xl-block" alt="Company logo"> --%>
               <div class="">

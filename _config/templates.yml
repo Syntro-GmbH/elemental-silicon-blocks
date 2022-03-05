@@ -1,5 +1,5 @@
 ---
-Name: blocks-silicon-template-priority
+Name: elemental-silicon-blocks-template-priority
 Before:
   - dnadesign/silverstripe-elemental
 ---
