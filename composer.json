@@ -1,5 +1,5 @@
 {
-    "name": "syntro/blocks-silicon",
+    "name": "syntro/elemental-silicon-blocks",
     "description": "Private module providing blocks for the silicon theme.",
     "type": "silverstripe-vendormodule",
     "authors": [
