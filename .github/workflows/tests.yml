@@ -89,7 +89,7 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
           files: ./coverage.xml
         if: ${{ matrix.php == '7.4' }}
-  # phpstan:
+  phpstan:
     name: 🔺 PHPStan
     runs-on: ubuntu-latest
     container: brettt89/silverstripe-web:7.4-apache
