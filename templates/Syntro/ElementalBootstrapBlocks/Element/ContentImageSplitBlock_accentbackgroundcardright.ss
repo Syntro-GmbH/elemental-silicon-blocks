@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="row g-0 bg-dark bg-repeat-0 bg-position-center border rounded-3 overflow-hidden" style="background-image: url($resourceURL('syntro/blocks-silicon:client/img/accented-card-pattern.svg'));">
+  <div class="row g-0 bg-dark bg-repeat-0 bg-position-center border rounded-3 overflow-hidden" style="background-image: url($resourceURL('syntro/elemental-silicon-blocks:client/img/accented-card-pattern.svg'));">
     <%-- Content --%>
     <div class="col-md-{$LeftWidth} py-xl-5 px-4 dark-mode text-light">
       $HTML
