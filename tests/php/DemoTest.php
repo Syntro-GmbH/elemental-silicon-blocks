@@ -10,6 +10,12 @@ use SilverStripe\Dev\FunctionalTest;
 class DemoTest extends FunctionalTest
 {
     /**
+     * Defines the fixture file to use for this test class
+     * @var string
+     */
+    protected static $fixture_file = './defaultfixture.yml';
+
+    /**
      * Test Footer on Homepage
      * @return void
      */
