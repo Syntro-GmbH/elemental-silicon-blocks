@@ -7,4 +7,4 @@ Before:
 #   defaults:
 SilverStripe\Core\Manifest\ModuleManifest:
   module_priority:
-    - syntro/blocks-silicon
+    - syntro/elemental-silicon-blocks
