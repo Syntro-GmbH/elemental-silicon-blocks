@@ -5,6 +5,7 @@
       "spaceBetween": 24,
       "centerInsufficientSlides": true,
       "autoHeight": true,
+      "autoplay": <% if UseCarouselAutoplay %>true<% else %>false<% end_if %>,
       "pagination": {
         "el": ".swiper-pagination",
         "clickable": true

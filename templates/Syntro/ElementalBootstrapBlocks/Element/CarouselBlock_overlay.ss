@@ -33,6 +33,7 @@
               "spaceBetween": 30,
               "loop": true,
               "tabs": true,
+              "autoplay": <% if Autoplay %>true<% else %>false<% end_if %>,
               "pagination": {
                 "el": "#case-study-pagination",
                 "clickable": true
