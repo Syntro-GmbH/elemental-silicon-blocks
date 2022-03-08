@@ -46,7 +46,7 @@ class Step extends BaseItem
      *  @var array
      */
     private static $cascade_duplicates = [
-        'Link'
+        // 'Link'
     ];
 
 
@@ -64,7 +64,7 @@ class Step extends BaseItem
      * @var array
      */
     private static $owns = [
-        'Link'
+        // 'Link'
     ];
 
     /**
