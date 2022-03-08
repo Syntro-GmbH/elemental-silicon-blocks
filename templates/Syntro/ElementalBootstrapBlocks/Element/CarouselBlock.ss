@@ -6,6 +6,7 @@
         "spaceBetween": 30,
         "loop": true,
         "tabs": true,
+        "autoplay": <% if Autoplay %>true<% else %>false<% end_if %>,
         "autoHeight": true,
         "navigation": {
           "prevEl": "#prev-industry",
