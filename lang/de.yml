@@ -13,6 +13,11 @@ de:
       und kopiere das zweite Argument im class Attribute (z.B. <code>bxl-unity</code>).
     CONTENTTITLE: Inhalt
     LINKTITLE: Link
+  Syntro\BlocksSilicon\Element\MultiStepBlock:
+    BlockType: Schritte
+  Syntro\BlocksSilicon\Model\Step:
+    CONTENTTITLE: Inhalt
+    LINKTITLE: Link
   Syntro\BlocksSilicon\Extension\TabIconExtension:
     ICONTITLE: Icon
     ICONDESC:
