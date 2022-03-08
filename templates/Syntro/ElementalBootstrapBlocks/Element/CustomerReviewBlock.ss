@@ -1,20 +1,20 @@
 <div class="container">
   <div class="position-relative px-sm-5 mx-auto" style="max-width: 976px;">
+    <% if $Reviews.count > 1 %>
+      <!-- Prev button -->
+      <button type="button" id="prev" class="btn btn-prev btn-icon btn-sm position-absolute top-50 translate-middle-y start-0 d-none d-sm-inline-flex mt-n4">
+        <i class="bx bx-chevron-left"></i>
+      </button>
 
-    <!-- Prev button -->
-    <button type="button" id="prev" class="btn btn-prev btn-icon btn-sm position-absolute top-50 translate-middle-y start-0 d-none d-sm-inline-flex mt-n4">
-      <i class="bx bx-chevron-left"></i>
-    </button>
-
-    <!-- Next button -->
-    <button type="button" id="next" class="btn btn-next btn-icon btn-sm position-absolute top-50 translate-middle-y end-0 d-none d-sm-inline-flex mt-n4">
-      <i class="bx bx-chevron-right"></i>
-    </button>
-
+      <!-- Next button -->
+      <button type="button" id="next" class="btn btn-next btn-icon btn-sm position-absolute top-50 translate-middle-y end-0 d-none d-sm-inline-flex mt-n4">
+        <i class="bx bx-chevron-right"></i>
+      </button>
+    <% end_if %>
     <!-- Slider -->
     <div class="swiper swiper-nav-onhover pt-1 mx-md-2" data-swiper-options='{
       "spaceBetween": 12,
-      "loop": true,
+      "loop": <% if $Reviews.count > 1 %>true<% else %>false<% end_if %>,
       "pagination": {
         "el": ".swiper-pagination",
         "clickable": true
@@ -56,9 +56,10 @@
           </div>
         <% end_loop %>
       </div>
-
-      <!-- Pagination -->
-      <div class="swiper-pagination position-relative pt-2 pt-sm-3 mt-4"></div>
+      <% if $Reviews.count > 1 %>
+        <!-- Pagination -->
+        <div class="swiper-pagination position-relative pt-2 pt-sm-3 mt-4"></div>
+      <% end_if %>
     </div>
   </div>
 </div>

@@ -14,7 +14,7 @@
         <div class="swiper mx-0 mb-md-n2 mb-xxl-n3" data-swiper-options='{
           "spaceBetween": 24,
           "pager": true,
-          "loop": true,
+          "loop": <% if $Reviews.count > 1 %>true<% else %>false<% end_if %>,
           "tabs": true,
           "navigation": {
             "prevEl": ".page-prev",
@@ -56,21 +56,22 @@
           </div>
         </div>
       </div>
-
-      <!-- Pagination (Pager) -->
-      <nav class="pagination d-flex justify-content-center justify-content-md-start">
-        <div class="page-item me-2">
-          <a class="page-link page-prev btn-icon btn-sm" href="#">
-            <i class="bx bx-chevron-left"></i>
-          </a>
-        </div>
-        <ul class="list-unstyled d-flex justify-content-center w-auto mb-0"></ul>
-        <div class="page-item ms-2">
-          <a class="page-link page-next btn-icon btn-sm" href="#">
-            <i class="bx bx-chevron-right"></i>
-          </a>
-        </div>
-      </nav>
+      <% if $Reviews.count > 1 %>
+        <!-- Pagination (Pager) -->
+        <nav class="pagination d-flex justify-content-center justify-content-md-start">
+          <div class="page-item me-2">
+            <a class="page-link page-prev btn-icon btn-sm" href="#">
+              <i class="bx bx-chevron-left"></i>
+            </a>
+          </div>
+          <ul class="list-unstyled d-flex justify-content-center w-auto mb-0"></ul>
+          <div class="page-item ms-2">
+            <a class="page-link page-next btn-icon btn-sm" href="#">
+              <i class="bx bx-chevron-right"></i>
+            </a>
+          </div>
+        </nav>
+      <% end_if %>
     </div>
     <div class="col-md-4 d-none d-md-block">
 

@@ -16,20 +16,22 @@
           <span class="btn btn-icon btn-primary btn-lg shadow-primary pe-none">
             <i class="bx bxs-quote-left"></i>
           </span>
-          <div class="d-flex">
-            <button type="button" id="testimonials-prev" class="btn btn-prev btn-icon btn-sm me-2">
-              <i class="bx bx-chevron-left"></i>
-            </button>
-            <button type="button" id="testimonials-next" class="btn btn-next btn-icon btn-sm ms-2">
-              <i class="bx bx-chevron-right"></i>
-            </button>
-          </div>
+          <% if $Reviews.count > 1 %>
+            <div class="d-flex">
+              <button type="button" id="testimonials-prev" class="btn btn-prev btn-icon btn-sm me-2">
+                <i class="bx bx-chevron-left"></i>
+              </button>
+              <button type="button" id="testimonials-next" class="btn btn-next btn-icon btn-sm ms-2">
+                <i class="bx bx-chevron-right"></i>
+              </button>
+            </div>
+          <% end_if %>
         </div>
 
         <!-- Slider -->
         <div class="swiper mx-0 mb-md-n2 mb-xxl-n3" data-swiper-options='{
           "spaceBetween": 24,
-          "loop": true,
+          "loop": <% if $Reviews.count > 1 %>true<% else %>false<% end_if %>,
           "pagination": {
             "el": ".swiper-pagination",
             "clickable": true
@@ -68,8 +70,10 @@
               </div>
             <% end_loop %>
           </div>
-          <!-- Pagination (bullets) -->
-          <div class="swiper-pagination position-relative mt-5"></div>
+          <% if $Reviews.count > 1 %>
+            <!-- Pagination (bullets) -->
+            <div class="swiper-pagination position-relative mt-5"></div>
+          <% end_if %>
         </div>
       </div>
     </div>
