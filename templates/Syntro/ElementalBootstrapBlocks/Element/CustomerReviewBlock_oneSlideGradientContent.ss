@@ -53,6 +53,13 @@
                       <p><i class="text-muted"><%t Syntro\BlocksSilicon\Model\Review.NOCOMMENT 'No Comment' %></i></p>
                     <% end_if %>
                   </blockquote>
+                  <div class="card-footer border-0 text-nowrap pt-0">
+                    <i class="bx <% if Score >= 1 %>bxs-star text-warning<% else %>bx-star text-muted opacity-75<% end_if%>"></i>
+                    <i class="bx <% if Score >= 2 %>bxs-star text-warning<% else %>bx-star text-muted opacity-75<% end_if%>"></i>
+                    <i class="bx <% if Score >= 3 %>bxs-star text-warning<% else %>bx-star text-muted opacity-75<% end_if%>"></i>
+                    <i class="bx <% if Score >= 4 %>bxs-star text-warning<% else %>bx-star text-muted opacity-75<% end_if%>"></i>
+                    <i class="bx <% if Score >= 5 %>bxs-star text-warning<% else %>bx-star text-muted opacity-75<% end_if%>"></i>
+                  </div>
                   <figcaption class="card-footer border-0 d-flex align-items-center w-100 pb-2">
                     <% if Portrait %>
                       <img src="$Portrait.Fill(100,100).URL" width="60" class="rounded-circle" alt="$Title">

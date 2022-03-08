@@ -46,6 +46,13 @@
                       <i class="text-muted"><%t Syntro\BlocksSilicon\Model\Review.NOCOMMENT 'No Comment' %></i>
                     <% end_if %>
                   </blockquote>
+                  <div class="card-footer border-0 text-nowrap pt-0">
+                    <i class="bx <% if Score >= 1 %>bxs-star text-warning<% else %>bx-star text-muted opacity-75<% end_if%>"></i>
+                    <i class="bx <% if Score >= 2 %>bxs-star text-warning<% else %>bx-star text-muted opacity-75<% end_if%>"></i>
+                    <i class="bx <% if Score >= 3 %>bxs-star text-warning<% else %>bx-star text-muted opacity-75<% end_if%>"></i>
+                    <i class="bx <% if Score >= 4 %>bxs-star text-warning<% else %>bx-star text-muted opacity-75<% end_if%>"></i>
+                    <i class="bx <% if Score >= 5 %>bxs-star text-warning<% else %>bx-star text-muted opacity-75<% end_if%>"></i>
+                  </div>
                   <figcaption class="card-footer border-0 d-sm-flex d-md-none w-100 pb-2">
                     <div class="d-flex align-items-center border-end-sm pe-sm-4 me-sm-2">
                       <% if Portrait %>
