@@ -8,14 +8,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
-<a name="1.0.2"></a>
-## [1.0.2] - 2022-03-08
+<a name="1.1.0"></a>
+## [1.1.0] - 2022-03-08
+### 🍰 Added
+- multi-step block ([#10](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/10))
+- autoplay support ([#9](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/9))
+
+### 🐞 Fixed
+- use correct url for changelog links
+- single review styles show stars
+- Step has no link
+- customer review blocks do not show pagination when less than 2 items present (closes [#6](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/6))
+- default split image block style has more spacing (closes [#7](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/7))
+
+### 🧬 Dependencies
+- Update syntro/elemental-bootstrap-blocks requirement ([#11](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/11))
+
+
+<a name="1.0.3"></a>
+## [1.0.3] - 2022-03-08
+### 🍰 Added
+- dependabot uses correct prefix
+
 
 <a name="1.0.1"></a>
 ## [1.0.1] - 2022-03-05
 ### 🐞 Fixed
 - purge old repo name
-- update repository name ([#4](https://github.com/syntro-opensource/silvershare/issues/4))
+- update repository name ([#4](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/4))
 
 
 <a name="1.0.0"></a>
@@ -43,9 +63,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - free tests
 
 ### Pull Requests
-- Merge pull request [#3](https://github.com/syntro-opensource/silvershare/issues/3) from Syntro-GmbH/add/tests
+- Merge pull request [#3](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/3) from Syntro-GmbH/add/tests
 
 
-[Unreleased]: https://github.com/syntro-opensource/silvershare/compare/1.0.2...HEAD
-[1.0.2]: https://github.com/syntro-opensource/silvershare/compare/1.0.1...1.0.2
-[1.0.1]: https://github.com/syntro-opensource/silvershare/compare/1.0.0...1.0.1
+[Unreleased]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.0.3...1.1.0
+[1.0.3]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.0.1...1.0.3
+[1.0.1]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.0.0...1.0.1
