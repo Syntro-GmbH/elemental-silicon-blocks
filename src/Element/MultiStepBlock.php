@@ -8,7 +8,6 @@ use SilverStripe\Assets\Image;
 use DNADesign\Elemental\Models\BaseElement;
 use Syntro\SilverStripeElementalBaseitem\Forms\GridFieldConfig_ElementalChildren;
 use Syntro\BlocksSilicon\Model\Step;
-// use Syntro\ElementalBootstrapBlocks\Extension\UseCarouselExtension;
 
 /**
  * An element which renders a step by step list
