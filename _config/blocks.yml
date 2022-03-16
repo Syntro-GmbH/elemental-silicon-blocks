@@ -98,6 +98,12 @@ Syntro\ElementalBootstrapBlocks\Element\TabSetBlock:
 Syntro\ElementalBootstrapBlocks\Model\Tab:
   extensions:
     - Syntro\BlocksSilicon\Extension\TabIconExtension
+Syntro\ElementalBootstrapBlocks\Element\MapBlock:
+  defaults:
+    Style: right
+  styles:
+    right: Map to the right, content to the left
+    left: Map to the left, content to the right
 
 Syntro\BlocksSilicon\Element\IconBoxSetBlock:
   defaults:
