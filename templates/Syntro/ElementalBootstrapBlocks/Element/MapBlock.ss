@@ -14,3 +14,5 @@
     </div>
   </div>
 </div>
+<% require javascript('syntro/elemental-bootstrap-blocks:client/dist/mapblock/bundle.js') %>
+<% require javascript($GoogleJS) %>
