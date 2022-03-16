@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+<a name="1.1.2"></a>
+## [1.1.2] - 2022-03-17
+### 🐞 Fixed
+- Map block actually renders map
+
+
 <a name="1.1.1"></a>
 ## [1.1.1] - 2022-03-17
 ### 🍰 Added
@@ -72,7 +78,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Merge pull request [#3](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/3) from Syntro-GmbH/add/tests
 
 
-[Unreleased]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.1.1...HEAD
+[Unreleased]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.1.2...HEAD
+[1.1.2]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.1.1...1.1.2
 [1.1.1]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.0.3...1.1.0
 [1.0.3]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.0.1...1.0.3
