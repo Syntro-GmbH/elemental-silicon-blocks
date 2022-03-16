@@ -73,6 +73,9 @@ de:
     STYLE_stretchlarge: Bild in voller Breite mit Parallax-Effekt (grosse Höhe)
     STYLE_stretchmedium: Bild in voller Breite mit Parallax-Effekt (mittlere Höhe)
     STYLE_stretchsmall: Bild in voller Breite mit Parallax-Effekt (kleine Höhe)
+  Syntro\ElementalBootstrapBlocks\Element\MapBlock:
+    STYLE_right: Karte auf der rechten Seite
+    STYLE_left: Karte auf der linken Seite
   Syntro\ElementalBootstrapBlocks\Element\TabSetBlock:
     STYLE_horizontalTabs: Tabs
     STYLE_horizontalPills: Tabs (Buttons)
