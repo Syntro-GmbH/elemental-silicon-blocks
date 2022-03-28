@@ -1,4 +1,7 @@
 de:
+  DNADesign\Elemental\Models\ElementContent:
+    STYLE_default: Einfacher Inhalt
+    STYLE_jumbo-card: Hervorgehobener Inhalt (Card in voller Breite)
   Syntro\BlocksSilicon\Element\IconBoxSetBlock:
     BlockType: Icon Boxen
     STYLE_simple: Zentriertes Icon mit Text

@@ -18,6 +18,13 @@ DNADesign\Elemental\Models\BaseElement:
     large: Large spacing
     none: No spacing (or custom classes)
 
+DNADesign\Elemental\Models\ElementContent:
+  defaults:
+    Style: default
+  styles:
+    default: Simple content
+    jumbo-card: Content highlighted in jumbotron (full width Card)
+
 Syntro\ElementalBootstrapBlocks\Element\AccordionBlock:
   defaults:
     Style: default
