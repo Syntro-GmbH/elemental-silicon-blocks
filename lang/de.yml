@@ -18,6 +18,9 @@ de:
   Syntro\BlocksSilicon\Model\Step:
     CONTENTTITLE: Inhalt
     LINKTITLE: Link
+  Syntro\BlocksSilicon\Extension\BreadcrumbsExtension:
+    SHOWBREADCRUMBSTITLE: Brotkrumen-Navigation anzeigen
+    HOME: Startseite
   Syntro\BlocksSilicon\Extension\TabIconExtension:
     ICONTITLE: Icon
     ICONDESC:
