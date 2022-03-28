@@ -5,7 +5,7 @@
       <li class="breadcrumb-item active" aria-current="page"><i class="bx bx-home-alt fs-lg me-1"></i> Home</li>
     <% else %>
       <li class="breadcrumb-item">
-        <a href="/"><i class="bx bx-home-alt fs-lg me-1"></i>Home</a>
+        <a href="/"><i class="bx bx-home-alt fs-lg me-1"></i><%t Syntro\BlocksSilicon\Extension\BreadcrumbsExtension.HOME 'Home' %></a>
       </li>
       <% if $Page.BreadcrumbItems %>
         <% loop $Page.BreadcrumbItems %>
