@@ -7,6 +7,7 @@ Name: elemental-silicon-blocks
 DNADesign\Elemental\Models\BaseElement:
   defaults:
     Style: 'default'
+    SpacingAfter: none
   holder_styles:
     colored: Slight background color
   spacing_before:
