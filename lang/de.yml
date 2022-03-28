@@ -82,3 +82,7 @@ de:
     STYLE_horizontalPillsBackground: Tabs (Buttons), Inhalt in Bereich mit Hintergrund
     STYLE_verticalPills: Vertikale Tabs (Buttons) links
     STYLE_verticalPillsBackground: Vertikale Tabs (Buttons) links, Inhalt in Bereich mit Hintergrund
+  SilverStripe\Blog\Model\Blog:
+    ShareThisPost: Diesen Artikel teilen
+    PostsByUserNoTitle: Artikel von {firstname} {surname}
+    NoPosts: Keine Artikel gefunden
