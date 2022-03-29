@@ -11,6 +11,7 @@
     <!-- Contact info -->
     <div class="col-md-4 pt-1 mb-4 mb-md-0 offset-xl-1 align-self-center order-1 order-md-2">
       $Content
+      <% include Syntro/ElementalBootstrapBlocks/Element/MapBlockAdress %>
     </div>
   </div>
 </div>

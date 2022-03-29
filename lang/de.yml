@@ -80,6 +80,7 @@ de:
     STYLE_stretchmedium: Bild in voller Breite mit Parallax-Effekt (mittlere Höhe)
     STYLE_stretchsmall: Bild in voller Breite mit Parallax-Effekt (kleine Höhe)
   Syntro\ElementalBootstrapBlocks\Element\MapBlock:
+    GetDirections: Route planen
     STYLE_right: Karte auf der rechten Seite
     STYLE_left: Karte auf der linken Seite
   Syntro\ElementalBootstrapBlocks\Element\TabSetBlock:
