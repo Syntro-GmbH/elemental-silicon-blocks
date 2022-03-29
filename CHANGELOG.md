@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+<a name="1.2.3"></a>
+## [1.2.3] - 2022-03-29
+### 🐞 Fixed
+- silicon custom blocks are available on Page
+
+
 <a name="1.2.2"></a>
 ## [1.2.2] - 2022-03-29
 ### 🍰 Added
@@ -110,7 +116,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Merge pull request [#3](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/3) from Syntro-GmbH/add/tests
 
 
-[Unreleased]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.2...HEAD
+[Unreleased]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.3...HEAD
+[1.2.3]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.2...1.2.3
 [1.2.2]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.1...1.2.2
 [1.2.1]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.0...1.2.1
 [1.2.0]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.1.2...1.2.0
