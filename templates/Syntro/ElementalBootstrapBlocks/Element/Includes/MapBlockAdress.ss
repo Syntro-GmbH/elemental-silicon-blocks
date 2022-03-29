@@ -9,13 +9,13 @@
     <% if AddPhone %>
       <li class="d-flex mb-3">
         <i class="bx bx-phone-call text-muted fs-xl mt-1 me-2"></i>
-        $AddPhone
+        <a class="nav-link d-flex align-items-center p-0 fw-normal" href="tel:$AddPhone">$AddPhone</a>
       </li>
     <% end_if %>
     <% if AddEmail %>
       <li class="d-flex mb-3">
         <i class="bx bx-envelope text-muted fs-xl mt-1 me-2"></i>
-        $AddEmail
+        <a class="nav-link d-flex align-items-center p-0 fw-normal" href="mailto:$AddEmail">$AddEmail</a>
       </li>
     <% end_if %>
   </ul>
