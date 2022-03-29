@@ -1,9 +1,6 @@
 ---
 Name: elemental-silicon-blocks
 ---
----
-Name: elemental-bootstrap-blocks-allowed-elements
----
 Page:
   allowed_elements:
     - Syntro\BlocksSilicon\Element\MultiStepBlock
