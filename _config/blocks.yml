@@ -38,15 +38,21 @@ Syntro\ElementalBootstrapBlocks\Element\CardDeckBlock:
   extensions:
     - Syntro\ElementalBootstrapBlocks\Extension\UseCarouselExtension
     - Syntro\ElementalBootstrapBlocks\Extension\LinkStyleExtension
+    - Syntro\ElementalBootstrapBlocks\Extension\OptionalContentExtension
   defaults:
     Style: 'bordered'
     LinkStyle: 'btn-link'
   styles:
     bordered: Cards with border
     free: Cards without border
+    services-right: Carddeck on the right side with image as Icon, Content to the left
   link_styles:
     btn-link: simple text link
     btn-primary: Button in primary color
+  disable_carousel_for_styles:
+    - services-right
+  enable_content_for_styles:
+    - services-right
 Syntro\ElementalBootstrapBlocks\Element\CarouselBlock:
   defaults:
     Style: 'simple'

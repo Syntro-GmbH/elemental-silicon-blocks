@@ -46,6 +46,7 @@ de:
   Syntro\ElementalBootstrapBlocks\Element\CardDeckBlock:
     STYLE_bordered: Karte mit Rand
     STYLE_free: Karte ohne Rand
+    STYLE_services-right: Kartenstapel rechts mit Bild als Icon, Inhalt links
     LINKSTYLE_btn-link: Einfacher Link
     LINKSTYLE_btn-primary: Button in Primärfarbe
   Syntro\ElementalBootstrapBlocks\Element\CarouselBlock:
