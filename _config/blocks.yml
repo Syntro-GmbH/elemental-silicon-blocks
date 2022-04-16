@@ -27,9 +27,6 @@ DNADesign\Elemental\Models\BaseElement:
 DNADesign\Elemental\Models\ElementContent:
   defaults:
     Style: default
-  styles:
-    default: Simple content
-    jumbo-card: Content highlighted in jumbotron (full width Card)
 
 Syntro\ElementalBootstrapBlocks\Element\AccordionBlock:
   defaults:
