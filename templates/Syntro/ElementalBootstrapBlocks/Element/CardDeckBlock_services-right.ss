@@ -8,11 +8,12 @@
       <div class="row row-cols-1 row-cols-md-2">
         <div class="col">
           <% loop Cards %>
+            <% if $Odd %>
             <div class="card card-hover bg-secondary border-0 mb-4">
               <div class="card-body d-flex align-items-start">
                 <% if Image %>
-                  <div class="flex-shrink-0 bg-light rounded-3 p-3">
-                    <img src="$Image.Fill(30,30).URL" width="28" alt="$Title">
+                  <div class="flex-shrink-0 bg-light rounded-3 p-0">
+                    <img src="$Image.Fill(100,100).URL" width="50" alt="$Title">
                   </div>
                 <% end_if %>
                 <div class="ps-4">
@@ -32,10 +33,36 @@
                 </div>
               </div>
             </div>
-
-            <% if $Middle %>
+            <% end_if %>
+          <% end_loop %>
+        </div>
+        <div class="col">
+          <% loop Cards %>
+            <% if $Even %>
+            <div class="card card-hover bg-secondary border-0 mb-4">
+              <div class="card-body d-flex align-items-start">
+                <% if Image %>
+                  <div class="flex-shrink-0 bg-light rounded-3 p-0">
+                    <img src="$Image.Fill(100,100).URL" width="50" alt="$Title">
+                  </div>
+                <% end_if %>
+                <div class="ps-4">
+                  <% if ShowTitle %>
+                    <h3 class="h5 pb-2 mb-1">$Title</h3>
+                  <% end_if %>
+                  $Content
+                  <% if Link %>
+                    <% with Link %>
+                      <% if Up.Up.LinkStyle == 'btn-primary' %>
+                        <% include Syntro/BlocksSilicon/Includes/CardLinks/stretchedPrimary %>
+                      <% else %>
+                        <% include Syntro/BlocksSilicon/Includes/CardLinks/stretchedLink %>
+                      <% end_if %>
+                    <% end_with %>
+                  <% end_if %>
+                </div>
               </div>
-              <div class="col">
+            </div>
             <% end_if %>
           <% end_loop %>
         </div>
