@@ -8,6 +8,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+<a name="1.2.5"></a>
+## [1.2.5] - 2022-04-16
+### 🍰 Added
+- styling for Service cards
+- Jumbotron style
+
+### 🗑 Removed
+- jumbotron Style of ElementContent
+
+### 🧬 Dependencies
+- Update syntro/elemental-bootstrap-blocks requirement ([#19](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/19))
+
+
 <a name="1.2.4"></a>
 ## [1.2.4] - 2022-03-29
 ### 🐞 Fixed
@@ -122,7 +135,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Merge pull request [#3](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/3) from Syntro-GmbH/add/tests
 
 
-[Unreleased]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.4...HEAD
+[Unreleased]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.5...HEAD
+[1.2.5]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.4...1.2.5
 [1.2.4]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.3...1.2.4
 [1.2.3]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.2...1.2.3
 [1.2.2]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.1...1.2.2
