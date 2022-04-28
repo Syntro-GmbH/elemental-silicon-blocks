@@ -13,7 +13,9 @@
               <div class="card-body d-flex align-items-start">
                 <% if Image %>
                   <div class="flex-shrink-0 bg-light rounded-3 p-0">
-                    <img src="$Image.Fill(100,100).URL" width="50" alt="$Title">
+                    <% with $ImageWithRatio.ScaleWidth(100) %>
+                      <img src="$URL" width="{$Width}" height="{$height}" style="width: 50px;" alt="$Up.Title">
+                    <% end_with %>
                   </div>
                 <% end_if %>
                 <div class="ps-4">
@@ -43,7 +45,9 @@
               <div class="card-body d-flex align-items-start">
                 <% if Image %>
                   <div class="flex-shrink-0 bg-light rounded-3 p-0">
-                    <img src="$Image.Fill(100,100).URL" width="50" alt="$Title">
+                    <% with $ImageWithRatio.ScaleWidth(100) %>
+                      <img src="$URL" width="{$Width}" height="{$height}" style="width: 50px;" alt="$Up.Title">
+                    <% end_with %>
                   </div>
                 <% end_if %>
                 <div class="ps-4">

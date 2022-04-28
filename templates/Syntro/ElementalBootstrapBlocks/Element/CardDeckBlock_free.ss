@@ -26,7 +26,9 @@
               <% if Link %>
                 <% with Link %><a {$IDAttr} href="{$LinkURL}" {$TargetAttr}><% end_with %>
               <% end_if %>
-                <img src="$Image.Fill(800,440).URL" class="rounded-3" alt="$Title">
+              <% with $ImageWithRatio.ScaleWidth(800) %>
+                <img src="$URL" width="{$Width}" height="{$height}" class="rounded-3" alt="$Up.Title">
+              <% end_with %>
               <% if Link %>
                 </a>
               <% end_if %>
@@ -63,7 +65,9 @@
             <% if Link %>
               <% with Link %><a {$IDAttr} href="{$LinkURL}" {$TargetAttr}><% end_with %>
             <% end_if %>
-              <img src="$Image.Fill(800,440).URL" class="rounded-3" alt="$Title">
+            <% with $ImageWithRatio.ScaleWidth(800) %>
+              <img src="$URL" width="{$Width}" height="{$height}" class="rounded-3" alt="$Up.Title">
+            <% end_with %>
             <% if Link %>
               </a>
             <% end_if %>
