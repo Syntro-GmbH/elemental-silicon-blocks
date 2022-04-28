@@ -8,6 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+<a name="1.2.7"></a>
+## [1.2.7] - 2022-04-28
+### 🔧 Changed
+- use correct image size for Cards
+
+### 🧬 Dependencies
+- Update syntro/elemental-bootstrap-blocks requirement ([#20](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/20))
+
+
 <a name="1.2.6"></a>
 ## [1.2.6] - 2022-04-16
 ### 🐞 Fixed
@@ -141,7 +150,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Merge pull request [#3](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/3) from Syntro-GmbH/add/tests
 
 
-[Unreleased]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.6...HEAD
+[Unreleased]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.7...HEAD
+[1.2.7]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.6...1.2.7
 [1.2.6]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.5...1.2.6
 [1.2.5]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.4...1.2.5
 [1.2.4]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.3...1.2.4
