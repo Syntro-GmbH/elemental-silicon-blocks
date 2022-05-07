@@ -37,7 +37,7 @@ class BreadcrumbsExtension extends DataExtension
      * updateCMSFields - description
      *
      * @param  FieldList $fields the fields of the owner
-     * @return FieldList
+     * @return void
      */
     public function updateCMSFields($fields)
     {
