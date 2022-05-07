@@ -22,7 +22,7 @@
         "gorriecoe/silverstripe-linkfield": "^1",
         "syntro/silverstripe-elemental-baseitem": "^1",
         "unclecheese/display-logic": "^2",
-        "syntro/elemental-bootstrap-blocks": "1.2.6"
+        "syntro/elemental-bootstrap-blocks": "1.2.7"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.0",
