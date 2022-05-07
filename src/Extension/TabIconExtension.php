@@ -15,6 +15,7 @@ class TabIconExtension extends DataExtension
 {
     /**
      * Database fields
+     * @config
      * @var array
      */
     private static $db = [
