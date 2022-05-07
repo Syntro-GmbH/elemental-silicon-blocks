@@ -15,6 +15,7 @@ class TabIconExtension extends DataExtension
 {
     /**
      * Database fields
+     * @config
      * @var array
      */
     private static $db = [
@@ -26,7 +27,7 @@ class TabIconExtension extends DataExtension
      * updateCMSFields - description
      *
      * @param  FieldList $fields the fields of the owner
-     * @return FieldList
+     * @return void
      */
     public function updateCMSFields($fields)
     {

@@ -20,12 +20,21 @@ class IconBox extends BaseItem
 {
     /**
      * Defines the database table name
+     * @config
      *  @var string
      */
     private static $table_name = 'BlockIconBoxSet_IconBox';
 
+    /**
+     * @config
+     * @var bool
+     */
     private static $displays_title_in_template = true;
 
+    /**
+     * @config
+     * @var array
+     */
     private static $db = [
         'Icon' => 'Varchar',
         'Content' => 'HTMLText',
@@ -33,10 +42,15 @@ class IconBox extends BaseItem
 
     /**
      * Add default values to database
+     * @config
      *  @var array
      */
     private static $defaults = [];
 
+    /**
+     * @config
+     * @var array
+     */
     private static $has_one = [
         'Section' => IconBoxSetBlock::class,
         'Link' => Link::class
@@ -44,6 +58,7 @@ class IconBox extends BaseItem
 
     /**
      * duplicate relations
+     * @config
      *  @var array
      */
     private static $cascade_duplicates = [
@@ -54,6 +69,7 @@ class IconBox extends BaseItem
     /**
      * Defines summary fields commonly used in table columns
      * as a quick overview of the data for this dataobject
+     * @config
      * @var array
      */
     private static $summary_fields = [
@@ -62,6 +78,7 @@ class IconBox extends BaseItem
 
     /**
      * Relationship version ownership
+     * @config
      * @var array
      */
     private static $owns = [

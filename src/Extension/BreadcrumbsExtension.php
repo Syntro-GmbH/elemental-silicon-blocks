@@ -16,6 +16,7 @@ class BreadcrumbsExtension extends DataExtension
 {
     /**
      * Database fields
+     * @config
      * @var array
      */
     private static $db = [
@@ -24,6 +25,7 @@ class BreadcrumbsExtension extends DataExtension
 
     /**
      * Add default values to database
+     * @config
      *  @var array
      */
     private static $defaults = [
@@ -35,7 +37,7 @@ class BreadcrumbsExtension extends DataExtension
      * updateCMSFields - description
      *
      * @param  FieldList $fields the fields of the owner
-     * @return FieldList
+     * @return void
      */
     public function updateCMSFields($fields)
     {

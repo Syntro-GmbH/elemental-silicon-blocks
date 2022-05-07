@@ -19,23 +19,27 @@ class IconBoxSetBlock extends BaseElement
 {
     /**
      * Defines the database table name
+     * @config
      *  @var string
      */
     private static $table_name = 'BlockIconBoxSet';
 
     /**
      * Singular name for CMS
+     * @config
      *  @var string
      */
     private static $singular_name = 'Icon box block';
 
     /**
      * Plural name for CMS
+     * @config
      *  @var string
      */
     private static $plural_name = 'Icon box blocks';
 
     /**
+     * @config
      * @var bool
      */
     private static $inline_editable = false;
@@ -49,6 +53,7 @@ class IconBoxSetBlock extends BaseElement
     private static $displays_title_in_template = false;
 
     /**
+     * @config
      * @var string
      */
     private static $icon = 'font-icon-block-layout-2';
@@ -56,6 +61,7 @@ class IconBoxSetBlock extends BaseElement
     /**
      * Defines extension names and parameters to be applied
      *  to this object upon construction.
+     * @config
      *  @var array
      */
     private static $extensions = [
@@ -64,36 +70,42 @@ class IconBoxSetBlock extends BaseElement
 
     /**
      * available holder styles
+     * @config
      * @var array
      */
     private static $holder_styles = [];
 
     /**
      * available styles
+     * @config
      * @var array
      */
     private static $styles = [];
 
     /**
      * Database fields
+     * @config
      * @var array
      */
     private static $db = [];
 
     /**
      * Add default values to database
+     * @config
      *  @var array
      */
     private static $defaults = [];
 
     /**
      * Has_one relationship
+     * @config
      * @var array
      */
     private static $has_one = [];
 
     /**
      * Has_many relationship
+     * @config
      * @var array
      */
     private static $has_many = [
@@ -102,6 +114,7 @@ class IconBoxSetBlock extends BaseElement
 
     /**
      * Relationship version ownership
+     * @config
      * @var array
      */
     private static $owns = [

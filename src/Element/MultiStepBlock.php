@@ -18,23 +18,27 @@ class MultiStepBlock extends BaseElement
 {
     /**
      * Defines the database table name
+     * @config
      *  @var string
      */
     private static $table_name = 'BlockMultiStep';
 
     /**
      * Singular name for CMS
+     * @config
      *  @var string
      */
     private static $singular_name = 'Step by step block';
 
     /**
      * Plural name for CMS
+     * @config
      *  @var string
      */
     private static $plural_name = 'Step by Step blocks';
 
     /**
+     * @config
      * @var bool
      */
     private static $inline_editable = false;
@@ -48,6 +52,7 @@ class MultiStepBlock extends BaseElement
     private static $displays_title_in_template = false;
 
     /**
+     * @config
      * @var string
      */
     private static $icon = 'font-icon-block-numbers';
@@ -55,6 +60,7 @@ class MultiStepBlock extends BaseElement
     /**
      * Defines extension names and parameters to be applied
      *  to this object upon construction.
+     * @config
      *  @var array
      */
     private static $extensions = [
@@ -63,36 +69,42 @@ class MultiStepBlock extends BaseElement
 
     /**
      * available holder styles
+     * @config
      * @var array
      */
     private static $holder_styles = [];
 
     /**
      * available styles
+     * @config
      * @var array
      */
     private static $styles = [];
 
     /**
      * Database fields
+     * @config
      * @var array
      */
     private static $db = [];
 
     /**
      * Add default values to database
+     * @config
      *  @var array
      */
     private static $defaults = [];
 
     /**
      * Has_one relationship
+     * @config
      * @var array
      */
     private static $has_one = [];
 
     /**
      * Has_many relationship
+     * @config
      * @var array
      */
     private static $has_many = [
@@ -101,6 +113,7 @@ class MultiStepBlock extends BaseElement
 
     /**
      * Relationship version ownership
+     * @config
      * @var array
      */
     private static $owns = [
