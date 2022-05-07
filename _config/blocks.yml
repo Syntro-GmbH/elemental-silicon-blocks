@@ -61,6 +61,14 @@ Syntro\ElementalBootstrapBlocks\Element\CarouselBlock:
     simpleleft: Image on the left and slideable text on the right side
     overlay: Image as background with content in card overlay
     split: Full width block, content and image split in the middle
+Syntro\ElementalBootstrapBlocks\Element\ContactFormBlock:
+  defaults:
+    Style: default
+  styles:
+    default: Centered content and form
+    split-left: Split with left form and content to the right
+    split-right: Split with right form and content to the left
+    jumbo: Jumbotron
 Syntro\ElementalBootstrapBlocks\Element\ContentImageSplitBlock:
   defaults:
     Style: leftimage

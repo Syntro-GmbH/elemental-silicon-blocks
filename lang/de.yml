@@ -54,6 +54,11 @@ de:
     STYLE_simpleleft: Inhalt rechts, Bild links
     STYLE_overlay: Bild als Hintergrund, Inhalt in Card Overlay
     STYLE_split: Block in voller Breite, In der Mitte aufgeteilt
+  Syntro\ElementalBootstrapBlocks\Element\ContactFormBlock:
+    STYLE_default: Zentrierter Inhalt und Formular
+    STYLE_split-left: Zweispaltig, Formular links und Inhalt rechts
+    STYLE_split-right: Zweispaltig, Formular rechts und Inhalt links
+    STYLE_jumbo: Hervorgehoben
   Syntro\ElementalBootstrapBlocks\Element\ContentImageSplitBlock:
     STYLE_simple:  Zwei Spalten mit Bild auf der linken Seite
     STYLE_simpleright: Zwei Spalten mit Bild auf der rechten Seite

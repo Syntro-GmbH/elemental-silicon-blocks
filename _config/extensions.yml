@@ -4,3 +4,7 @@ Name: elemental-silicon-blocks-extensions
 Page:
   extensions:
     - Syntro\BlocksSilicon\Extension\BreadcrumbsExtension
+
+Syntro\ElementalBootstrapBlocks\Control\FormProvider:
+  extensions:
+    - Syntro\BlocksSilicon\Extension\ContactFormExtension
