@@ -8,6 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+<a name="1.2.8"></a>
+## [1.2.8] - 2022-05-07
+### 🍰 Added
+- styles for ContactFormBlock
+
+### 🔧 Changed
+- use `syntro/silverstripe-phpstan` ([#22](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/22))
+
+### 🧬 Dependencies
+- Update syntro/elemental-bootstrap-blocks requirement ([#21](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/21))
+
+
 <a name="1.2.7"></a>
 ## [1.2.7] - 2022-04-28
 ### 🔧 Changed
@@ -150,7 +162,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Merge pull request [#3](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/3) from Syntro-GmbH/add/tests
 
 
-[Unreleased]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.7...HEAD
+[Unreleased]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.8...HEAD
+[1.2.8]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.7...1.2.8
 [1.2.7]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.6...1.2.7
 [1.2.6]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.5...1.2.6
 [1.2.5]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.4...1.2.5
