@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+<a name="1.2.9"></a>
+## [1.2.9] - 2022-05-07
+### 🧬 Dependencies
+- Update syntro/elemental-bootstrap-blocks requirement ([#24](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/24))
+
+
 <a name="1.2.8"></a>
 ## [1.2.8] - 2022-05-07
 ### 🍰 Added
@@ -162,7 +168,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Merge pull request [#3](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/3) from Syntro-GmbH/add/tests
 
 
-[Unreleased]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.8...HEAD
+[Unreleased]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.9...HEAD
+[1.2.9]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.8...1.2.9
 [1.2.8]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.7...1.2.8
 [1.2.7]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.6...1.2.7
 [1.2.6]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.5...1.2.6
