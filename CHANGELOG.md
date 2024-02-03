@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+<a name="1.3.1"></a>
+## [1.3.1] - 2024-02-03
+### 🔧 Changed
+- `syntro/elemental-bootstrap-blocks` is not version locked anymore
+
+
 <a name="1.3.0"></a>
 ## [1.3.0] - 2024-02-03
 ### 🔧 Changed
@@ -174,7 +180,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Merge pull request [#3](https://github.com/Syntro-GmbH/elemental-silicon-blocks/issues/3) from Syntro-GmbH/add/tests
 
 
-[Unreleased]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.3.0...HEAD
+[Unreleased]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.3.1...HEAD
+[1.3.1]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.3.0...1.3.1
 [1.3.0]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.9...1.3.0
 [1.2.9]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.8...1.2.9
 [1.2.8]: https://github.com/Syntro-GmbH/elemental-silicon-blocks/compare/1.2.7...1.2.8
